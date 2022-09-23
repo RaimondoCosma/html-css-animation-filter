@@ -95,9 +95,23 @@
 /* -------------------
     ESERCIZIO 3
 ------------------- */
+.ex-3-square {
+    transition: border-radius 1s linear;
+}
+.ex-3-square:hover {
+    border-radius: 50%;
+}
+
 /* -------------------
     ESERCIZIO 4
 ------------------- */
+.ex-4-square {
+    transition: opacity 1.5s ease-out;
+}
+.ex-4-square:hover {
+    opacity: 0;
+}
+
 /* -------------------
     ESERCIZIO 5
 ------------------- */
