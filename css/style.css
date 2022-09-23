@@ -115,9 +115,26 @@
 /* -------------------
     ESERCIZIO 5
 ------------------- */
+.ex-5-square {
+    transition: scale 0.9s ease-in-out;
+}
+.ex-5-square:hover {
+    scale: 1.2;
+}
+.ex-5-square:active {
+    scale: 0.8;
+}
+
 /* -------------------
     ESERCIZIO 6
 ------------------- */
+.ex-6-img {
+    transition: filter 0.4s;
+}
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
 /* -------------------
     ESERCIZIO 7
 ------------------- */
