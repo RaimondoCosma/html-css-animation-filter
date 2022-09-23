@@ -138,9 +138,24 @@
 /* -------------------
     ESERCIZIO 7
 ------------------- */
+.ex-7-img {
+    transition: 1s;
+}
+.ex-7-img:hover {
+    filter: grayscale(0.6) opacity(1);
+}
+
 /* -------------------
     ESERCIZIO 8
 ------------------- */
+.ex-8-img {
+    transition: 0.7s;
+}
+.ex-8-img:hover {    
+     filter: opacity(0.5)  grayscale(1);
+     border-radius: 15px;
+}
+
 /* -------------------
     ESERCIZIO 9
 ------------------- */
