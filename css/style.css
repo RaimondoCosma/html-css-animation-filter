@@ -194,12 +194,113 @@
         color: black;
     }
 }
+
 /* -------------------
     ESERCIZIO 11
 ------------------- */
+.ex-11-icon:hover {
+    animation: turn-return 1.5s linear;
+}
+@keyframes turn-return {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(90deg);
+        color: green;
+    }
+    50% {
+        transform: rotate(180deg); 
+        color: blue;       
+    }
+    75% {
+        transform: rotate(270deg);
+        color: red;
+    }
+}
 /* -------------------
     ESERCIZIO 12
 ------------------- */
+.ex-12-top-white {
+    animation: up-white-space 1.5s linear infinite;
+}
+.ex-12-bottom-white {
+    animation: down-white-space 1.5s linear infinite;
+}
+@keyframes up-white-space {
+    0% {
+        left: 10%;
+    }
+    50% {
+        left: 50%;
+    }
+}
+@keyframes down-white-space {
+    0% {
+        right: 20%;
+    }
+    50% {
+        right: 60%;
+    }
+}
 /* -------------------
     ESERCIZIO 13
 ------------------- */
+.ex-13-top-white {
+    animation: up-complete-turn 3s linear infinite;
+}
+.ex-13-bottom-white {
+    animation: down-complete-turn 3s linear infinite;
+}
+@keyframes up-complete-turn {
+    0% {
+        left: 10%;
+        top: -10px;
+    }
+    30% {
+        left: calc(100% - 30px);
+        top: -10px;
+    }
+    45% {
+        left: calc(100% - 30px);
+        top: 100%;
+    }
+    75% {
+        left: 0;
+        top: 100%;
+    }
+    90% {
+        left: -15px;
+        top: -10px;
+    }
+    100% {
+        left: 10%;
+        top: -10px;
+    }
+}
+@keyframes down-complete-turn {
+    0% {
+        bottom: -10px;
+        right: 20%;
+    }
+    15% {
+        right: -10%;
+        bottom: -10px;
+    }
+    30% {
+        right: -10%;
+        bottom: 100%;
+    }
+    60% {
+        right: calc(100% - 40px);
+        bottom: 100%;
+    }
+    80% {
+        right: calc(100% - 40px);
+        bottom: -10px;
+    }
+    100% {
+        right: -20%;
+        bottom: -10px;
+    }
+}
